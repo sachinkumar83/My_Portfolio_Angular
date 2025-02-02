@@ -1,0 +1,8 @@
+<!-- src/app/features/projects/project-list.component.html -->
+<div class="project-list">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <app-project-card *ngFor="let project of projects" [project]="project"></app-project-card>
+    </div>
+  </div>
+  

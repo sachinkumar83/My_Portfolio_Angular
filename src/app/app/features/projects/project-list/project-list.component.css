@@ -1,0 +1,10 @@
+/* src/app/features/projects/project-list.component.css */
+.project-list {
+    padding: 20px;
+  }
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
